@@ -1,3 +1,5 @@
+//MODIFICACION PARA LA TAREA PRACTICA GIT - ENTORNOS DE DESARROLLO
+
 class CuentaBancaria
 {
 	//Propiedades
@@ -8,11 +10,11 @@ class CuentaBancaria
 		
 	//Metodos
 	
-	public CuentaBancaria(String numCuenta,String nomTitular,double saldo)
+	public CuentaBancaria(String numCuenta,String nomTitular,double saldo,double TipoIntereses)
 	{
 		this.numCuenta = numCuenta;
 		this.nomTitular = nomTitular;
-		this.TipoIntereses = tipTipoIntereses;
+		this.TipoIntereses = TipoIntereses;
 		ingreso(saldo);
 			}
 	
