@@ -6,6 +6,6 @@ class TestCuentaBancaria
 		System.out.println("Saldo = " + cuenta.getSaldo());
 		cuenta.reintegro(50);
 		cuenta.ingreso(100);
-		System.out.println("Saldo: " + cuenta.getSaldo());
+		System.out.println("Saldo es : " + cuenta.getSaldo());
 	}
 }
