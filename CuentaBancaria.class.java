@@ -12,6 +12,7 @@ class CuentaBancaria
 	{
 		this.numCuenta = numCuenta;
 		this.nomTitular = nomTitular;
+		this.TipoIntereses = tipTipoIntereses;
 		ingreso(saldo);
 			}
 	
